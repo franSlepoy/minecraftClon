@@ -6,6 +6,7 @@ import Fpv from "./components/FPV";
 import { Player } from "./components/Payer";
 import { Cubes } from "./components/Cubes";
 import { TextureSelector } from "./components/TextureSelected";
+import Instrucciones from "./components/Instrucciones";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       </Canvas>
       <TextureSelector/>
       <div className="pointer">+</div>
+    
+      <Instrucciones/>
     </>
   );
 }
